@@ -1,0 +1,4 @@
+textarea{min-height: 120px;background:#f8f8f8;}
+
+.stepshow{}
+.stephide{display: none;}

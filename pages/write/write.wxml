@@ -1,0 +1,68 @@
+<!--index.wxml-->
+<view class="container">
+    <view wx:if="{{vstep == 1}}">
+        <view class="section">
+            <label>写下你真实的梦想</label>
+            <textarea bindinput="bindTextareaInput" value="{{step_1}}" auto-focus auto-height placeholder="描绘一下你的梦想" />
+        </view>
+        <view class="section">
+        <button bindtap="bindToStep">下一步</button>
+        </view>
+    </view>
+    <view wx:if="{{vstep == 2}}">
+        <view class="section">
+            <label>为了你的梦想，5年内要达成的目标</label>
+            <textarea bindinput="bindTextareaInput" value="{{step_2}}" auto-focus auto-height placeholder="5年内要做的最重要的事" />
+        </view>
+        <view class="section">
+        <button bindtap="bindToStep">下一步</button>
+        </view>
+    </view>
+    <view wx:if="{{vstep == 3}}">
+        <view class="section">
+            <label>为了实现5年目标，未来1年最重要的事？</label>
+            <textarea bindinput="bindTextareaInput" value="{{step_3}}" auto-focus auto-height placeholder="今年要做的最重要的事" />
+        </view>
+        <view class="section">
+        <button bindtap="bindToStep">下一步</button>
+        </view>
+    </view>
+    <view wx:if="{{vstep == 4}}">
+        <view class="section">
+            <label>为了实现1年目标，未来1月最重要的事？</label>
+            <textarea bindinput="bindTextareaInput" value="{{step_4}}" auto-focus auto-height placeholder="本月要做的最重要的事" />
+        </view>
+        <view class="section">
+        <button bindtap="bindToStep">下一步</button>
+        </view>
+    </view>
+    <view wx:if="{{vstep == 5}}">
+        <view class="section">
+            <label>为了实现1月目标，未来一周最重要的一件事？</label>
+            <textarea bindinput="bindTextareaInput" value="{{step_5}}" auto-focus auto-height placeholder="这周要做的最重要的事" />
+        </view>
+        <view class="section">
+        <button bindtap="bindToStep">下一步</button>
+        </view>
+    </view>
+    <view wx:if="{{vstep == 6}}">
+        <view class="section">
+            <label>为了实现1周目标，今天最重要的一件事？</label>
+            <textarea bindinput="bindTextareaInput" value="{{step_6}}" auto-focus auto-height placeholder="今天要做的最重要的事" />
+        </view>
+        <view class="section">
+        <button bindtap="bindToStep">下一步</button>
+        </view>
+    </view>
+    <view wx:if="{{vstep == 7}}">
+        <view class="section">
+            <label>为了实现今天目标，当前最重要的一件事？</label>
+            <textarea bindinput="bindTextareaInput" value="{{step_7}}" auto-focus auto-height placeholder="现在要做的最重要的事" />
+        </view>
+        <view class="section">
+        <button bindtap="bindToStep">下一步</button>
+        </view>
+    </view>
+    
+
+</view>

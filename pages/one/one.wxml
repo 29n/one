@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="body-view">
+        <text>奥格·曼狄诺：“一次只做一件事的人，才会领先于这个世界。”
+
+        </text>
+        <text>理查德·科克在《80/20法则》中总结：“80/20法则认为少量的原因、投入、付出常常产生大量的结果、产出、回报。”
+
+        </text>
+        <text>绝大多数所得恰恰是靠较少部分付出而获得的。从20%中找出20%，再从中找出20%，指导找到最重要的一件事！
+        
+        来吧，现在就去寻找自己最重要的一件事。
+        </text>
+        <button bindtap="bindToWrite"> 开 始 </button>
+    </view>
+</view>

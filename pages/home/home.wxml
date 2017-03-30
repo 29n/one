@@ -1,0 +1,42 @@
+<!--home.wxml-->
+<view class="container">
+
+    <view class="section">
+        <label>现在最重要的一件事</label>
+        <text>{{step_7}}</text>
+    </view>
+    <view class="spaceview"></view>
+    <view class="section">
+        <label>今天最重要的一件事</label>
+        <text>{{step_6}}</text>
+    </view>
+    <view class="spaceview"></view>
+    <view class="section">
+        <label>本周最重要的一件事</label>
+        <text>{{step_5}}</text>
+    </view>
+    <view class="spaceview"></view>
+    <view class="section">
+        <label>本月最重要的一件事</label>
+        <text>{{step_4}}</text>
+    </view>
+    <view class="spaceview"></view>
+    <view class="section">
+        <label>今年最重要的一件事</label>
+        <text>{{step_3}}</text>
+    </view>
+    <view class="spaceview"></view>
+    <view class="section">
+        <label>5年内最重要的一件事</label>
+        <text>{{step_2}}</text>
+    </view>
+    <view class="spaceview"></view>
+    <view class="section">
+        <label>你的梦想</label>
+        <text>{{step_1}}</text>
+    </view>
+    
+    <view class="btnwrap">
+        <button bindtap="bindToWrite">更新</button>
+    </view>
+</view>

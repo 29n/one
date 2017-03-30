@@ -1,0 +1,6 @@
+/**one.wxss**/
+
+.body-view{
+    padding:0px 16px;
+    line-height: 180%;
+}

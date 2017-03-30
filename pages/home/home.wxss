@@ -1,0 +1,9 @@
+/**home.wxss**/
+
+.container{padding:20px 20px 20px 20px;}
+.section{text-align:left;width:100%;padding:10px 8px 20px 8px;background-color:antiquewhite;border:0.01rem #888888 solid;}
+.section label{color:#888888;padding:8px;font-size:14pt;display:block;}
+.section text{color:#353535;padding:8px;font-size:14pt;display:block;}
+.spaceview{height:20px;display: block;}
+
+.btnwrap{padding:10px;}
